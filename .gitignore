@@ -1,32 +1,59 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
+# Windows Thumb.db files
+Thumbs.db
+ 
+# Visual Studio cache files
+*.suo
+*.user
+*.sln.docstates
+ 
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.aps
+*.dlg
+*.ncb
+*.opt
+*.plg
+*.scc
+ 
+# Localization files
+*.loc
+ 
+# Miscellaneous intermediate files
+*.obj
+*.ilk
+*.meta
+*.tlog
+*.log
+*.idb
+*.pdb
+*.tmp
+*.bak
+*.cache
+*.ilk
+*.pri.cache
+ 
+# Visual C++ generated files
+ipch/
+*.aps
+*.ncb
+*.pch
+*.pgc
+*.pgd
+*.pgi
+*.pgm
+*.rsp
+*.sbr
+*.tlb
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.vspscc
+ipch/
+_ReSharper*/
+*.[Rr]esources.resx
+*.[Rr]esources.resx.bak
