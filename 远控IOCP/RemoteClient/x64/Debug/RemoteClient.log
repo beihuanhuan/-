@@ -1,0 +1,118 @@
+﻿  pch.cpp
+  ClientController.cpp
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(20,1): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(189,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\EdoyunTool.h(35,1): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(43,28): warning C4244: “return”: 从“INT_PTR”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(79,40): error C2664: “FILE *fopen(const char *,const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(79,23): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(213,28): message : 参见“fopen”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(84,70): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(84,51): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(84,110): error C2664: “bool CClientController::SendCommandPacket(HWND,int,bool,BYTE *,size_t,WPARAM)”: 无法将参数 4 从“int”转换为“BYTE *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(84,93): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.cpp(58,25): message : 参见“CClientController::SendCommandPacket”的声明
+  ClientSocket.cpp
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(20,1): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(189,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(93,51): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(93,51): message : 尝试匹配参数列表“(const char [23])”时
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(98,34): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(98,34): message : 尝试匹配参数列表“(const char [11])”时
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(252,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(270,70): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.cpp(279,7): error C3861: “usleep”: 找不到标识符
+  CWatchDialog.cpp
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(20,1): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(189,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\EdoyunTool.h(35,1): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\CWatchDialog.cpp(62,15): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\CWatchDialog.cpp(63,16): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\CWatchDialog.cpp(65,8): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\CWatchDialog.cpp(66,8): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  RemoteClient.cpp
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(20,1): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(189,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\EdoyunTool.h(35,1): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+  RemoteClientDlg.cpp
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(20,1): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientSocket.h(189,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\EdoyunTool.h(35,1): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(208,73): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(208,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(214,73): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(214,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(217,72): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(217,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(238,68): error C2664: “int atoi(const char *)”: 无法将参数 1 从“LPCTSTR”转换为“const char *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(238,52): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(451,62): message : 参见“atoi”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(238,69): error C2660: “CClientController::UpdateAddress”: 函数不接受 1 个参数
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.h(31,7): message : 参见“CClientController::UpdateAddress”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(255,42): error C2664: “int CListCtrl::InsertItem(int,LPCTSTR)”: 无法将参数 2 从“char [256]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(255,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxcmn.h(494,6): message : 参见“CListCtrl::InsertItem”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(272,68): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const _Elem *”转换为“LPCTSTR”
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(272,46): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxcmn.h(921,12): message : 参见“CTreeCtrl::InsertItem”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(281,67): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const _Elem *”转换为“LPCTSTR”
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(281,45): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxcmn.h(921,12): message : 参见“CTreeCtrl::InsertItem”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(293,75): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [256]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(293,44): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxcmn.h(921,12): message : 参见“CTreeCtrl::InsertItem”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(294,40): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [1]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(294,21): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxcmn.h(921,12): message : 参见“CTreeCtrl::InsertItem”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(298,40): error C2664: “int CListCtrl::InsertItem(int,LPCTSTR)”: 无法将参数 2 从“const char [256]”转换为“LPCTSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(298,29): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxcmn.h(494,6): message : 参见“CListCtrl::InsertItem”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(308,71): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(308,71): message : 尝试匹配参数列表“(const char [35])”时
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(430,110): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(430,95): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(430,131): error C2664: “bool CClientController::SendCommandPacket(HWND,int,bool,BYTE *,size_t,WPARAM)”: 无法将参数 4 从“int”转换为“BYTE *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(430,129): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.h(52,7): message : 参见“CClientController::SendCommandPacket”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(432,58): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(432,58): message : 尝试匹配参数列表“(const char [27])”时
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(445,110): error C2440: “类型强制转换”: 无法从“CString”转换为“LPCSTR”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(445,95): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(445,131): error C2664: “bool CClientController::SendCommandPacket(HWND,int,bool,BYTE *,size_t,WPARAM)”: 无法将参数 4 从“int”转换为“BYTE *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(445,129): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.h(52,7): message : 参见“CClientController::SendCommandPacket”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(447,58): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(447,58): message : 尝试匹配参数列表“(const char [27])”时
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(474,68): error C2664: “int atoi(const char *)”: 无法将参数 1 从“LPCTSTR”转换为“const char *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(474,52): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(451,62): message : 参见“atoi”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(474,69): error C2660: “CClientController::UpdateAddress”: 函数不接受 1 个参数
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.h(31,7): message : 参见“CClientController::UpdateAddress”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(482,68): error C2664: “int atoi(const char *)”: 无法将参数 1 从“LPCTSTR”转换为“const char *”
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(482,52): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(451,62): message : 参见“atoi”的声明
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\RemoteClientDlg.cpp(482,69): error C2660: “CClientController::UpdateAddress”: 函数不接受 1 个参数
+C:\Users\执着\Desktop\远控IOCP梦幻版\RemoteClient\ClientController.h(31,7): message : 参见“CClientController::UpdateAddress”的声明
+  StatusDlg.cpp
+  正在生成代码...
