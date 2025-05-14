@@ -1,59 +1,49 @@
-# Windows Thumb.db files
-Thumbs.db
- 
-# Visual Studio cache files
-*.suo
-*.user
-*.sln.docstates
- 
-# Build results
-[Dd]ebug/
-[Rr]elease/
+# Visual Studio生成的文件
+.vs/
+ipch/
+Debug/
+Release/
 x64/
 x86/
-*.pch
+Win32/
 *.aps
-*.dlg
 *.ncb
-*.opt
-*.plg
-*.scc
- 
-# Localization files
-*.loc
- 
-# Miscellaneous intermediate files
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 编译输出
+*.exe
+*.dll
+*.lib
 *.obj
-*.ilk
-*.meta
-*.tlog
-*.log
-*.idb
-*.pdb
-*.tmp
-*.bak
-*.cache
-*.ilk
-*.pri.cache
- 
-# Visual C++ generated files
-ipch/
-*.aps
-*.ncb
 *.pch
-*.pgc
-*.pgd
-*.pgi
-*.pgm
-*.rsp
-*.sbr
-*.tlb
-*.tlh
-*.tli
+*.pdb
+*.ilk
+*.exp
+*.res
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+
+# MFC特有文件
+*.aps        # 资源预览文件
+resource.h   # 资源头文件（如果它是自动生成的）
+
+# 日志和临时文件
+*.log
 *.tmp
-*.tmp_proj
-*.vspscc
-ipch/
-_ReSharper*/
-*.[Rr]esources.resx
-*.[Rr]esources.resx.bak
+*.temp
+
+# 其他常见的临时文件
+Thumbs.db
+Desktop.ini
